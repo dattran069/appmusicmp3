@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:id="@+id/heart" android:title="" android:icon="@drawable/heart_empty" app:showAsAction="always"></item>
+<item android:icon="@drawable/chat" android:title="" android:id="@+id/chat" app:showAsAction="always"></item>
+    <item android:icon="@drawable/more" android:title="" android:id="@+id/more" app:showAsAction="always"></item>
+</menu>

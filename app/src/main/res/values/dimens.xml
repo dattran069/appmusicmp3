@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="thumb_text_size">18</dimen>
+    <dimen name="thumb_size">50</dimen>
+</resources>

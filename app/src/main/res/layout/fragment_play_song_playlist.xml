@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.PlaySongPlaylistFragment">
+  <LinearLayout
+      android:background="#38393C"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/botron_gray"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bài hát"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playlist"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nghệ sĩ"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"></TextView>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_song_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em nên dừng lại"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"></TextView>
+            <TextView
+                android:id="@+id/txt_song_playlist"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em nên dừng lại (Single)"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"></TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/txt_song_singer"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khang Việt"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/heart_empty"
+                app:tint="@color/white"></ImageView>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="57,8K"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/listenning"
+                app:tint="@color/white"></ImageView>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="1,8M"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:orientation="horizontal">
+          <TextView
+              android:textColor="@color/white"
+              android:textAllCaps="true"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/txv_name_category"
+              android:textSize="20sp"
+              android:text="Bài hát tương tự"></TextView>
+          <ImageView
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:backgroundTint="@color/white"
+              android:background="@drawable/ic_baseline_arrow_forward_ios_24"></ImageView>
+      </LinearLayout>
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/RecyclerViewSameSong"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+      </androidx.recyclerview.widget.RecyclerView>
+  </LinearLayout>
+</FrameLayout>

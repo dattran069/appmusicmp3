@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btnPlaylistPhat">#DB1AFD</color>
+    <color name="primary_color">#363C36</color>
+    <color name="active_btn_pink">#E30BCD</color>
+    <color name="active_btn_red">#EF2049</color>
+    <color name="mainBack">#4A4848</color>
+    <color name="text_color_black_backgroung">#B8B4B4</color>
+</resources>

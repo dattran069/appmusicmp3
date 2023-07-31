@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/ca_nhan" android:icon="@drawable/icons8_alone_64" android:title="Cá nhân" ></item>
+    <item android:id="@+id/kham_pha" android:icon="@drawable/search" android:title="Khám phá" ></item>
+    <item android:id="@+id/xu_huong" android:icon="@drawable/trend" android:title="Xu hướng" ></item>
+    <item android:id="@+id/theo_doi" android:icon="@drawable/follow" android:title="Theo dõi" ></item>
+</menu>

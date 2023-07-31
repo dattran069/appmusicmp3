@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/trogiup" android:icon="@drawable/help"  android:title="Trợ giúp"></item>
+<item android:id="@+id/display" android:icon="@drawable/screen" android:title="Giao diện"></item>
+
+</menu>

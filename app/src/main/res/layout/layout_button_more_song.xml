@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout_more">
+    <LinearLayout
+        android:id="@+id/txt_xem_them"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/botron_gray"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="horizontal" android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem thêm"></TextView>
+    </LinearLayout>
+</LinearLayout>

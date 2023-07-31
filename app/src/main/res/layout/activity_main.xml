@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity.MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LinearLayout_bottom"></androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"></View>
+
+
+<!--      <include-->
+<!--          android:layout_width="match_parent"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          layout="@layout/layout_mini_song" />-->
+        <include
+            android:visibility="gone"
+            android:id="@+id/layout_footer_song"
+            layout="@layout/layout_footer_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"></include>
+      <com.google.android.material.bottomnavigation.BottomNavigationView
+          android:id="@+id/BottomNavigationView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#EDD221"
+          app:itemIconTint="@color/navigation_color"
+          app:itemTextColor="@color/navigation_color"
+          app:labelVisibilityMode="labeled"
+          app:menu="@menu/bottom_navigation_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
